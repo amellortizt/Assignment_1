@@ -1,15 +1,13 @@
 /*
-
 File Name:  style.css
-Author:     Ulfany Furcal
-Date:       10-01-2023
-Student ID: 301268770
-
+Author:     Amell Ortiz
+Date:       10-07-2023
+Student ID: 301274861
 */
 
 /* Global Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
 }
@@ -21,24 +19,24 @@ body {
 }
 
 h1 {
-  color: #333;
+  color: #000000;
   text-align: center;
   font-size: 36px;
 }
 
 h2 {
-  color: #555;
-  font-size: 24px;
+  color: #000000;
+  font-size: 22px;
 }
 
 p {
-  color: #777;
-  font-size: 18px;
+  color: #000000;
+  font-size: 16px;
 }
 
 /* Navigation */
 nav {
-  background-color: #333;
+  background-color: #000000;
   padding: 10px;
 }
 
@@ -71,7 +69,7 @@ z .welcome-message {
   font-size: 24px;
   text-align: center;
   margin-bottom: 20px;
-  color: #ff6600;
+  color: #2600ff;
 }
 
 .mission-statement {
@@ -85,7 +83,7 @@ z .welcome-message {
   width: 200px;
   margin: 0 auto;
   text-align: center;
-  background-color: #ff6600;
+  background-color: #1900ff;
   color: #fff;
   text-decoration: none;
   padding: 10px;
@@ -95,7 +93,7 @@ z .welcome-message {
 }
 
 .home-button:hover {
-  background-color: #e65c00;
+  background-color: #3200e6;
   transform: translateY(-5px);
   /* Add a vertical translation on hover */
 }
@@ -187,7 +185,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #b700ff;
+  background-color: #00d0ff;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -198,13 +196,13 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #b700ff;
+  background-color: #009dff;
   transform: translateY(-5px);
   /* Add a vertical translation on hover */
 }
 
 footer {
-  background-color: #333;
+  background-color: #000000;
   text-align: center;
   padding: 20px;
   font-size: 16px;
