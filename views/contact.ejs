@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-File Name:  about.ejs
+File Name:  contact.ejs
 Author:     Amell Ortiz
 Date:       10-07-2023
 Student ID: 301274861
@@ -19,7 +19,7 @@ Student ID: 301274861
     <header>
         <nav>
             <div class="logo">
-                <img src="/public/images/My_logo.png" height="100" width="100" alt="Logo">
+                <img src="/images/My_logo.png" height="150" width="150" alt="Logo">
             </div>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -40,16 +40,13 @@ Student ID: 301274861
         </div>
 
         <form action="/submit" method="post">
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname">
+            <label for="fname">Full name:</label>
+            <input type="text" id="fullname" name="fullname">
 
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname">
-
-            <label for="contact">Contact Number:</label>
+            <label for="contact">Phone Number:</label>
             <input type="text" id="contact" name="contact">
 
-            <label for="email">Email Address:</label>
+            <label for="email">Email:</label>
             <input type="email" id="email" name="email">
 
             <label for="message">Message:</label>
@@ -57,9 +54,8 @@ Student ID: 301274861
 
             <input type="submit" value="Submit">
             <script>
-                // JavaScript to redirect to the home page when the form is submitted
                 document.querySelector('form').addEventListener('submit', function (event) {
-                    event.preventDefault(); // Prevent the default form submission
+                    event.preventDefault();
                     window.location.href = '/';
                 });
             </script>

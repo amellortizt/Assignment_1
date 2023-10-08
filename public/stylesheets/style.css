@@ -5,39 +5,37 @@ Date:       10-07-2023
 Student ID: 301274861
 */
 
-/* Global Styles */
 body {
   font-family: 'Times New Roman', Times, serif;
-  margin: 0;
+  margin: 10;
   padding: 0;
 }
 
 .container {
-  max-width: 960px;
+  max-width: 975px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 17px;
 }
 
 h1 {
-  color: #000000;
+  color: #1363a9;
   text-align: center;
-  font-size: 36px;
+  font-size: 26px;
 }
 
 h2 {
-  color: #000000;
-  font-size: 22px;
+  color: #1363a9;
+  font-size: 20px;
 }
 
 p {
-  color: #000000;
-  font-size: 16px;
+  color: #080808;
+  font-size: 18px;
 }
 
-/* Navigation */
 nav {
-  background-color: #000000;
-  padding: 10px;
+  background-color: #0ec1ea;
+  padding: 8px;
 }
 
 nav ul {
@@ -52,57 +50,48 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #040404;
   text-decoration: none;
-  padding: 10px;
-  font-size: 20px;
+  padding: 9px;
+  font-size: 22px;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #ff6600;
+  color: #ff4800;
   transform: scale(1.1);
-  /* Add a scale effect on hover */
-}
-
-z .welcome-message {
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #2600ff;
 }
 
 .mission-statement {
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .home-button {
   display: block;
-  width: 200px;
+  width: 189px;
   margin: 0 auto;
   text-align: center;
-  background-color: #1900ff;
+  background-color: #1363a9;
   color: #fff;
   text-decoration: none;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 6px;
   font-size: 20px;
   transition: background-color 0.3s ease;
 }
 
 .home-button:hover {
-  background-color: #3200e6;
+  background-color: #1363a9;
   transform: translateY(-5px);
-  /* Add a vertical translation on hover */
 }
 
 .about-image {
   display: block;
   margin: 0 auto;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -110,22 +99,22 @@ z .welcome-message {
 
 .about-paragraph {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .project {
   margin-bottom: 20px;
   text-align: center;
   background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 5px;
+  padding: 21px;
+  border-radius: 6px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .project img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 450px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
@@ -137,9 +126,9 @@ z .welcome-message {
 
 .service {
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
   background-color: #f9f9f9;
-  padding: 20px;
+  padding: 21px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
@@ -147,64 +136,61 @@ z .welcome-message {
 
 .service:hover {
   transform: translateY(-5px);
-  /* Add a vertical translation on hover */
 }
 
 .service img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 301px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
 
-/* Contact Me Page */
 .contact-info {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 
 form {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 11px;
 }
 
 label {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 10px;
-  font-size: 18px;
+  padding: 11px;
+  font-size: 19px;
 }
 
 input[type="submit"] {
-  background-color: #00d0ff;
+  background-color: #1363a9;
   color: #fff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   transition: background-color 0.3s ease;
 }
 
 input[type="submit"]:hover {
-  background-color: #009dff;
+  background-color: #1363a9;
   transform: translateY(-5px);
-  /* Add a vertical translation on hover */
 }
 
 footer {
-  background-color: #000000;
+  background-color: #0ec1ea;
   text-align: center;
   padding: 20px;
-  font-size: 16px;
-  margin-top: 20px;
+  font-size: 18px;
+  margin-top: 18px;
 }
